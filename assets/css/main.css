@@ -1439,7 +1439,20 @@ blockquote {
     min-height: 400px;
     background: transparent;
 }
-
+.rwd{
+    position: relative;
+  left: -15px;
+  width: 80%;
+  height:auto;
+}
+.rwd img{
+   height: auto;
+    position: relative;
+    left: -22px;
+    top: 70px;
+    max-width: 530px;
+    min-width: 200px;
+}
 
 /*---------------------------------------
    SECTION FUN FACTS              
@@ -1717,6 +1730,19 @@ blockquote {
   position: relative;
   left: 15px;
   
+}
+.rwd{
+    position: relative;
+  left: -15px;
+  width: 80%;
+  height:auto;
+}
+.rwd img{
+   height:auto;
+  position: relative;
+   left: 48px;
+    max-width: 500px;
+  min-width: 200px;
 }
 .iphone img{
   width: 100%;
