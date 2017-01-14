@@ -1915,3 +1915,7 @@ figcaption.mask span {
 }
 
 }
+.mask a {
+    color: transparent !important;
+    text-decoration: none;
+}
