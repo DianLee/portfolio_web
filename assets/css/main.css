@@ -1104,7 +1104,6 @@ background: linear-gradient(to bottom, rgb(37, 37, 37) 0%,rgba(14, 14, 14, 0.95)
         -ms-transition: 0.3s ease-out 0s;
          -o-transition: 0.3s ease-out 0s;
             transition: 0.3s ease-out 0s;
-            text-align: center;
 }
 
 .portfolio-item:hover .plus {
@@ -1707,6 +1706,10 @@ blockquote {
     -o-background-size: cover;
     background-size: 210%;
 
+    }
+    figcaption.mask {
+      padding: 0 0 30px 30px;
+    text-align: left;
 }
 #headerwrap h1 {
     margin-top: 350px;
