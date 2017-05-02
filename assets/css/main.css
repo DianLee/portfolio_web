@@ -952,7 +952,7 @@ background: linear-gradient(80deg, rgba(239,237,237,1) 0%,rgba(255,255,255,1) 10
   -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
     filter: grayscale(0%); 
         position: relative;
-        top: 60px;
+        top: 0px;
     right: 70px;
 }
 .app2_link{
