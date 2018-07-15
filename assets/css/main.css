@@ -629,6 +629,279 @@ hr {
     -o-background-size: cover;
     background-size: cover;
 }
+.UXstep{
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+  padding-bottom: 100px;
+  height: 200px;
+
+}
+.UXstep p {
+  text-align: center;
+  padding-top: 100px; 
+  margin: 0 30px 0 30px;
+} 
+
+.line01 {
+    height: 3px;
+    width: 100%;
+    top: 120px;
+    position: relative;
+}
+.blue_line{
+  background: #1ba5dc;
+}
+.orange_line{
+  background: #ffbf26;
+}
+.pink_line{
+  background: #f75780;
+}
+
+.exploration{
+  height: 300px;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 290px;
+    background: #fff;
+    width: 100%;
+    margin-left: 6%;
+}
+.step03 h3{
+  color: #f75780;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  color: #f75780;
+  margin: 60px 10px 5px 10px;
+}
+.step03 p{
+  margin: 0 15px 0 15px;
+}
+.step01 h3{
+  color: #1ba5dc;
+  margin: 70px 0 20px 0;
+}
+.circle p{
+  color: #666;
+  text-align: center;
+}
+.UXstep01{
+  background: url(../img/explore.jpg) no-repeat center top; 
+  background-size: cover;
+  height: 500px;
+}
+.UXstep02{
+  background: url(../img/concept.png) no-repeat center top;
+  background-size: cover;
+  max-height: 500px;
+}
+.UXstep03{
+  background: url(../img/design.jpg) no-repeat center top; 
+  background-size: cover;
+  height: 500px;
+}
+.ex01{
+}
+.ex02{
+}
+.ex03{
+}
+.pin{
+   text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+  height: 30px;
+}
+.UXstep02 .word{
+position: relative;
+top: -80px;
+text-align:center;
+color: #fff;
+}
+.steptitle{
+  padding-bottom: 25px;
+  text-align: center;
+}
+.circleWrap {
+    padding-bottom: 70px;
+    position: absolute;
+    z-index: 9;
+}
+.filterDiv {
+    display: none; /* Hidden by default */
+}
+.show {
+    display: block;
+}
+.svgWrap {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: -400px;
+}
+.svgWrap2 {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    top: -100px;
+}
+.transferStart{
+  background: url("../img/transferStart.png") no-repeat center;
+  top:25px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+}
+.map{
+  text-align: center;
+  margin: auto;
+}
+.blue {
+  background: #FFF;
+  border:#1ba5dc;
+  color: #1ba5dc;
+}
+.blue:hover {
+  background: #1ba5dc;
+  color: #fff;
+  border: #1ba5dc;
+}
+.blue.active {
+  background: #1ba5dc;
+  color: #fff;
+  border: #1ba5dc;
+}
+.pin_blue{
+    width: 0;
+    position: relative;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 10px 0 10px;
+    border-color: #1ba5dc transparent transparent transparent;
+    text-align: center;
+    margin: 0 auto;
+     top: 70px;
+    margin: 0 13%;
+}
+.orange {
+  background: #FFF;
+  border: #ffbf26;
+  color:  #ffbf26;
+}
+.orange:hover{
+   background: #ffbf26;
+   color: #fff;
+   border: #ffbf26;
+}
+.orange.active{
+   background: #ffbf26;
+   color: #fff;
+   border: #ffbf26;
+}
+.pin_orange{
+    width: 0;
+    position: relative;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 10px 0 10px;
+    border-color: #ffbf26 transparent transparent transparent;
+    text-align: center;
+    margin: 0 auto;
+    top: 70px;
+    margin: 0 48%;
+
+}
+
+.pink{
+  background: #FFF;
+  border: #f75780;
+  color:  #f75780;
+}
+.concept{
+    /* width: 100%; */
+    height: 500px;
+    text-align: center;
+    background: url(../img/transferDisplay-m.png) no-repeat center;
+    background-position: center;
+    background-size: 80%;
+    position: relative;
+    top: -130px;
+}
+.pink:hover{
+  background: #f75780;
+  color: #fff;
+   border: #f75780;
+}
+.pink.active{
+  background: #f75780;
+  color: #fff;
+   border: #f75780;
+}
+.pin_pink{
+    width: 0;
+    position: relative;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 10px 0 10px;
+    border-color: #f75780 transparent transparent transparent;
+    text-align: center;
+    margin: 0 auto;
+    top: 20px;
+    margin: 0px 297%;
+}
+.purple{
+  background: #FFF;
+  border: #9b57f7;
+  color:  #9b57f7;
+}
+.purple:hover{
+  background: #9b57f7;
+  color: #fff;
+   border: #9b57f7;
+}
+.purple.active{
+  background: #9b57f7;
+  color: #fff;
+   border: #9b57f7;
+}
+.stepA{
+  width: 30%;
+  float: left;
+}
+.stepB{
+  width: 5%;
+  float: left;
+}
+.circle01{
+  border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+    border:solid 3px;
+    font-weight: bold;
+}
+.analyseStart{
+  top:25px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0 auto;
+  background: url(../img/analyseStart.png) no-repeat center;
+}
 #aboutwrap h2 {
     color: #fff;
     font-size: 50px;
@@ -928,7 +1201,7 @@ hr {
 
 .port-color{
   padding-bottom: 50px;
-  margin-bottom: 100px;
+ /* margin-bottom: 100px;*/
   position: relative;
   z-index: 11;
 background: rgb(239,237,237); /* Old browsers */

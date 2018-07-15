@@ -54,6 +54,7 @@
 			<h1 class="logo"><a href="index.html#home">Dina Lee</a></h1>
 			<i class="fa fa-arrow-right menu-close"></i>
 			<a href="#home">Home</a>
+			<a href="#process">Process</a>
 			<a href="#project">Projects</a>
 			<a href="#portfolio">Works</a>
 			<a href="#about">About</a>
@@ -89,6 +90,7 @@
 				<div id='cssmenu' class="medium-hidden small-hidden wow animated fadeInLeft" data-wow-duration="4s">
 							<ul>
 								<li><a href='#home'>Home</a></li>
+								<li><a href='#process'>Process</a></li>
 							   <li><a href='#project'>Projects</a></li>
 								<li><a href='#portfolio'>Works</a></li>
 							   <li><a href='#about'>About me</a></li>
@@ -100,6 +102,111 @@
 	</div><!-- /headerwrap -->
 
 <div class="port-color">
+	<section class="testimonials animated wow fadeIn" id="testimonials" data-wow-duration="2s">
+    	<div class="container" id="process">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <!-- ABOUT US SECTION TITLE-->
+                    <div class="section_title animated wow fadeInDown" data-wow-delay="0s" id="project">
+                        <h2>UX Design Process</h2>
+                        <p>Design is an interesting process of problem discovery and problem solving. I developed a streamlined and efficient design method to help me identify opportunities for innovation in the midst of the apparent chaos, and to transform these opportunities into actual design results. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+		<div class="UXstep" id="myBtnContainer">
+			<div class="stepA " onclick="filterSelection('ex01')">
+				<div class="circle01 blue active">
+					<p>Exploration and Analysis</p>
+				</div>
+			</div>
+			<div class="stepB">
+				<div class="line01 blue_line">
+				</div>
+			</div>
+			<div class="stepA" onclick="filterSelection('ex02')">
+				<div class="circle01 orange">
+					<p>Concept Transform</p>
+				</div>
+			</div>
+			<div class="stepB">
+				<div class="line01 orange_line">
+				</div>
+			</div>
+			<div class="stepA" onclick="filterSelection('ex03')">
+				<div class="circle01 pink">
+					<p>Intricate Design</p>
+				</div>
+			</div>
+		</div>
+		<div class="filterDiv ex01 pin ">
+			<div class=" pin_blue">
+			</div>
+		</div>
+		<div class="filterDiv ex02 pin">
+			<div class=" pin_orange">
+			</div>
+		</div>
+		<div class="filterDiv ex03 pin col-md-3">
+			<div class=" pin_pink">
+			</div>
+		</div>
+	</section>
+
+	<!--  End Testimonials Section  -->
+	<section class="filterDiv testimonials animated wow fadeIn UXstep01 ex01">
+		<div class= "exploration container">
+			<div class="step01">
+				<div class="circle col-md-3">
+					<h3 class>Customer Interviews</h3>
+					<p>This is the starting point for all projects - to have a heart-to-heart talk on the impending project with clints.</p>
+				</div>
+				<div class="circle col-md-3">
+					<h3 class>User Research</h3>
+					<p>I delve into the users' lives, make observations, conduct interviews, and then construct points of view based on the users.</p>
+				</div>
+				<div class="circle col-md-3">
+					<h3 class>Design Analysis</h3>
+					<p>Through design methods, competition analysis, user research, I redefine new design directions for the products.</p>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="filterDiv testimonials animated fadeIn UXstep02 ex02">
+		<div class= "container">
+			<div class="col-md-3 word" style="top: -70px">
+				<h2>Concept Proposal</h2>
+				<p>Results of the contextual analyses are transformed into core values for the products. The points of views of the users that have been newly identified are thereafter carefully transformed into smooth, optimized interactive designs. But we do not stop here. Each design is in-built with its own unique elements and highlights, promising to deliver surprise after surprise.</p>
+			</div>
+			<div class="col-md-6 concept">
+			</div>
+			<div class="col-md-3 word">
+				<h2>Construction of Interactive Mode</h2>
+				<p>As design highlights and requirements gradually take shape in the form of the actual service interface, we need to look into the operational characteristics of each platform and ensure seamless connection amongst the platforms. By focusing on people and simplifying the processes, we aim to develop consistent and tightly-knitted cross-platform experiences.</p>
+			</div>
+		</div>
+	</section>
+	<section class="filterDiv testimonials animated fadeIn UXstep03 ex03">
+		<div class= "container">
+			<div class="step03">
+				<div class="circle col-md-3">
+					<h3 class>Detailed Flow Design</h3>
+					<p>The framework of the main functions are confirmed, the process is executed page by page, and all contact points are meticulously connected.</p>
+				</div>
+				<div class="circle col-md-3">
+					<h3 class>Visual Design</h3>
+					<p>Each brand is given distinctive characteristics such that visual style is consistent in every detail, and the design is perfected in every aspect.</p>
+				</div>
+				<div class="circle col-md-3">
+					<h3 class>Usability Testing</h3>
+					<p>Prototype testing is employed to rapidly test product concepts. The resultant first-hand feedback helps us bring the products closer to market needs.</p>
+				</div>
+			</div>
+		</div>
+
+	</section>
     <section class="testimonials animated wow fadeIn" id="testimonials" data-wow-duration="2s">
     	<div class="container">
             <div class="row">
@@ -293,7 +400,21 @@
             </nav>
 
             <div id="projects" class="clearfix wow bounceInRight" data-wow-duration="1s">
-             
+             	<figure class="mix portfolio-item proto ux">
+                    <img class=" img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/taishin.jpg" alt="Portfolio Item" >
+                    
+                    <figcaption class="mask wow fadeIn">
+                         <div class="fancybox-icon">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </div>
+                        <h3>Taishin payplus App</h3>
+                        <span>Prototyping</span>
+                        <div class="row">
+                            <a href="https://framer.cloud/YvqHQ/" target="_blank"><div class="col-md-offset-3 col-md-2 fancybox-content-icon "><i class="fa fa-link" aria-hidden="true"></i></div>
+                            
+                        </div>
+                    </figcaption>
+                </figure>
                 <figure class="mix portfolio-item proto ux">
                     <img class=" img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/21.jpg" alt="Portfolio Item" >
                     
@@ -372,7 +493,7 @@
                 <figure class="mix portfolio-item web ui ">
                     <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/6.jpg" alt="Portfolio Item">
                     <figcaption class="mask wow fadeIn">
-                         <div class="fancybox-icon">
+                        <div class="fancybox-icon">
                         <i class="fa fa-html5" aria-hidden="true"></i>
                         </div>
                         <h3>Redliuli Website</h3>
@@ -398,7 +519,7 @@
                 <figure class="mix portfolio-item web ui ">
                     <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/21.png" alt="Portfolio Item">
                     <figcaption class="mask wow fadeIn">
-                         <div class="fancybox-icon">
+                        <div class="fancybox-icon">
                         <i class="fa fa-html5" aria-hidden="true"></i>
                         </div>
                         <h3>Tebuy Global Website</h3>
@@ -409,8 +530,7 @@
                     </figcaption>
                 </figure>
                 <figure class="mix portfolio-item proto ux">
-                    <img class=" img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/16.jpg" alt="Portfolio Item" >
-                    
+                    <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/16.jpg" alt="Portfolio Item" >
                     <figcaption class="mask wow fadeIn">
                          <div class="fancybox-icon">
                         <i class="fa fa-mobile" aria-hidden="true"></i>
@@ -437,7 +557,6 @@
                 </figure>
                 <figure class="mix portfolio-item ui">
                     <img class=" img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/b.jpg" alt="Portfolio Item">
-                    
                     <figcaption class="mask wow fadeIn">
                         <div class="fancybox-icon">
                         <i class="fa fa-mobile" aria-hidden="true"></i>
@@ -449,66 +568,6 @@
                         </div>
                     </figcaption>
                 </figure>
-                <!-- <figure class="mix portfolio-item ui web">
-                   <img class=" img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/1.jpg" alt="Portfolio Item">
-                    
-                    <figcaption class="mask wow fadeIn">
-                         <div class="fancybox-icon">
-                        <i class="fa fa-html5" aria-hidden="true"></i>
-                        </div>
-                        <h3>Ecommerce Dashboard</h3>
-                        <span>UI Design</span>
-                        <div class="row">
-                            <a class="various " href="assets/img/portfolio/big/1.png" title="Ecommerce Dashboard" rel="portfolio"><div class="col-md-2 col-md-offset-3 fancybox-content-icon "><i class="fa fa-search" aria-hidden="true"></i></div></a>
-                        </div>
-                    </figcaption>
-                </figure>
-
-                <figure class="mix portfolio-item ui ">
-                   <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/3.jpg" alt="Portfolio Item">         
-                        <figcaption class="mask wow fadeIn">
-                             <div class="fancybox-icon">
-                        <i class="fa fa-tablet" aria-hidden="true"></i>
-                        </div>
-                        <h3>Recipe Ecommerce</h3>
-                        <span>UI Design</span>
-                        <div class="row">
-                            <a class="various " href="assets/img/portfolio/big/3.png" title="Recipe Ecommerce" rel="portfolio"><div class="col-md-2 col-md-offset-3 fancybox-content-icon "><i class="fa fa-search" aria-hidden="true"></i></div></a>
-                        </div>
-                    </figcaption>
-                </figure>
-
-                <figure class="mix portfolio-item ui web">
-                    <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/4.jpg" alt="Portfolio Item">
-                    <figcaption class="mask wow fadeIn">
-                         <div class="fancybox-icon">
-                        <i class="fa fa-tablet" aria-hidden="true"></i>
-                        </div>
-                        <h3>Fresh Ecommerce</h3>
-                        <span>UI Design</span>
-                        <div class="row">
-                            <a class="various " href="assets/img/portfolio/big/4.png" title="Fresh Ecommerce" rel="portfolio"><div class="col-md-2 col-md-offset-3 fancybox-content-icon "><i class="fa fa-search" aria-hidden="true"></i></div></a>
-                        </div>
-                    </figcaption>
-                </figure>
-
-                <figure class="mix portfolio-item ui print">
-                   <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/5.jpg" alt="Portfolio Item">
-                    <figcaption class="mask wow fadeIn">
-                         <div class="fancybox-icon">
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                        </div>
-                        <h3>Music Player</h3>
-                        <span>Interaction Design</span>
-                        <div class="row">
-                            <a class="various " href="assets/img/portfolio/big/5.gif" title="Music Player" rel="portfolio"><div class="col-md-2 col-md-offset-3 fancybox-content-icon "><i class="fa fa-search" aria-hidden="true"></i></div></a>
-                        </div>
-                    </figcaption>
-                </figure> -->
-
-                
-                
-
                 <figure class="mix portfolio-item web ui">
                     <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/7.jpg" alt="Portfolio Item">
                     <figcaption class="mask wow fadeIn">
@@ -523,7 +582,6 @@
                         </div>
                     </figcaption>
                 </figure>
-
                 <figure class="mix portfolio-item print">
                     <img class="img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/8.jpg" alt="Portfolio Item">
                     <figcaption class="mask wow fadeIn">
@@ -594,64 +652,14 @@
                     </figcaption>
                 </figure>
                
-                <!-- <figure class="mix portfolio-item graphic ">
-                    <a class="various " href="assets/img/portfolio/big/15.jpg" title="Title One" rel="portfolio" ><img class=" img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/15.jpg" alt="Portfolio Item">
-
-
-                    <figcaption class="mask">
-                        <div class="fancybox-icon">
-                        <i class="fa fa-picture-o" aria-hidden="true"></i>
-                        </div>
-                        <h3>Ecommerce products DM</h3>
-                        <span>Photographic</span>
-                    </figcaption></a>
-                </figure> -->
-                <!-- <figure class="mix portfolio-item small_hidden all">
-                    <img class=" img-responsive wow fadeIn" data-wow-duration="1s" src="assets/img/portfolio/blank2.png" alt="Portfolio Item" >
-
-                    <div style="    position: relative;top: -110px;left: 140px;font-size: 30px;z-index: 2;"><i class="fa fa-spinner" aria-hidden="true"></i></div>
-                    <div style="position: relative;top: -90px;text-align: center;color: #333;font-size: 18px;font-weight: 300;left: 17px;font-family: 'Raleway', sans-serif;font-style: italic;">Works keep updating...</div>
-
-                   
-                </figure> -->                
+           
 
             </div> <!-- end #projects -->
 
         </section>
      </div>
-     <!-- <section id="FEATURES" class="features page">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1"> -->
-                    <!-- FEATURES SECTION TITLE -->
-                   <!--  <div class="section_title wow fadeIn" data-wow-duration="1s">
-                        <h2>Flims</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                    </div> -->
-                    <!-- END FEATURES SECTION TITLE -->
-                <!-- </div>
-            </div>
-        </div>
-
-        <div class="feature_inner">
-            <div class="container">
-                <div class="row"> -->
-             
-                    
-                        <!-- END SINGLE FEATURE -->
-                    
-                <!-- </div>
-            </div>
-        </div>
-    </section> -->
 
 </div>
-        <!--
-        End #Portfolio
-        ========================== -->
-
-
-        <!-- start introduction -->
     <section id="about" class="features page">
     	<div class="container">
 			<div class="row">
@@ -760,23 +768,6 @@
 		</div>	
 
 	</section>
-
-
-
-        <!-- end introduction -->
-
-
-
-
-
-
-
-	
-	
-	
-	<!-- =========================
-     START CONTCT FORM AREA
-============================== -->
     <section class="contact page parallax" id="contact">
         <div class="section_overlay">
             <div class="container">
@@ -826,24 +817,6 @@ background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.
             </div>
 
             <div class="container" style="content:'';height:100px;">
-                <!-- <div class="row">
-                    <div class="col-md-12 wow bounceInLeft">
-                        <div class="social_icons">
-                            <ul>
-                                <li><a href=""><i class="fa fa-facebook"></i></a>
-                                </li> -->
-                                <!-- <li><a href=""><i class="fa fa-twitter"></i></a>
-                                </li> -->
-                                <!-- <li><a href=""><i class="fa fa-dribbble"></i></a>
-                                </li> -->
-                                <!-- <li><a href=""><i class="fa fa-behance"></i></a>
-                                </li> -->
-                                <!-- <li><a href=""><i class="fa fa-youtube-play"></i></a>
-                                </li> -->
-                            <!-- </ul>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
@@ -929,6 +902,53 @@ background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.
   ga('create', 'UA-78518053-3', 'auto');
   ga('send', 'pageview');
 
+  filterSelection("ex01")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1); 
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("circle01");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
 </script>
 <!-- =======end GA============ -->
   </body>
